@@ -1,8 +1,17 @@
 aid: delli
-name: delli
-description: delli is a company surfaced as a portfolio company of balderton-capital, hv-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: DELLI
+description: >-
+  DELLI is a UK online marketplace for independent food and drink makers,
+  founded in 2022 by Depop founder Simon Beckerman with co-founder Marie
+  Petrovicka. Often described as "the Depop for food," DELLI curates niche and
+  small-batch products — snacks, sauces and condiments, pantry staples, drinks,
+  alcohol, sweets and lifestyle goods — from micro-bakers, picklers, olive-oil
+  producers and drink makers, and sells them to consumers, in part through a
+  drop-style release model. The platform has since evolved into an AI-powered
+  companion for makers and retailers, adding tools that cut the operational
+  overhead of running a small food business. DELLI is backed by Balderton
+  Capital and HV Capital, the original investors in Depop. The storefront runs
+  on Shopify; DELLI publishes no first-party developer API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/delli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +20,30 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.delli.market/cdn/shop/files/DELLI_LOGO_f77d7743-fe15-439d-9fa8-3754d42462a6.svg?height=628&pad_color=ffffff&v=1764773785&width=1200
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Marketplace
+- Food and Drink
+- E-commerce
+- Consumer
+- Independent Makers
+- Foodtech
+- Shopify
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://delli.market/
+- type: About
+  url: https://delli.market/pages/about-delli
+- type: Support
+  url: https://delli.market/pages/contact
+- type: Blog
+  url: https://delli.market/blogs/news
+- type: SignUp
+  url: https://delli.market/account/register
+- type: TermsOfService
+  url: https://delli.market/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://delli.market/policies/privacy-policy
+- type: WellKnown
+  url: well-known/delli-well-known.yml
+- type: DomainSecurity
+  url: security/delli-domain-security.yml
+- type: LLMsTxt
+  url: llms/delli-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

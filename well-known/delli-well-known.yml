@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of https://delli.market/.well-known/*
+host: https://delli.market
+note: >-
+  delli.market is a Shopify-hosted storefront. The openid-configuration and
+  oauth-authorization-server documents are Shopify's Customer Account API
+  discovery surface (issuer https://shopify.com/authentication/65228996698),
+  served under delli.market's own domain. delli publishes no first-party
+  developer API; these documents describe the platform's customer-login OAuth/OIDC.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: delli-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: delli-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

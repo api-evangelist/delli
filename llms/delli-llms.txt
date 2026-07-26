@@ -1,0 +1,26 @@
+# DELLI
+
+> DELLI is a UK online marketplace for independent food and drink makers, founded in 2022 by Depop founder Simon Beckerman. Often called "the Depop for food," it curates niche and small-batch products and has evolved into an AI-powered companion for makers and retailers. Backed by Balderton Capital and HV Capital. The storefront runs on Shopify; there is no public first-party developer API at this time.
+
+## Storefront
+- [DELLI](https://delli.market/): Independent food and drink marketplace homepage
+- [About DELLI](https://delli.market/pages/about-delli): Who DELLI is and why it exists
+- [Makers](https://delli.market/pages/makers): Independent makers selling on DELLI
+- [Sell with DELLI](https://delli.market/pages/sell-with-delli): Seller onboarding
+- [Partner with DELLI](https://delli.market/pages/partner-with-delli): Partner/retailer program
+
+## Help
+- [FAQs](https://delli.market/pages/faqs)
+- [Contact us](https://delli.market/pages/contact)
+- [Blog / News](https://delli.market/blogs/news)
+
+## Account
+- [Sign up / Log in](https://delli.market/account/register)
+
+## Policies
+- [Terms of Service](https://delli.market/policies/terms-of-service)
+- [Privacy Policy](https://delli.market/policies/privacy-policy)
+- [Refund Policy](https://delli.market/policies/refund-policy)
+
+## Discovery
+- [.well-known/openid-configuration](https://delli.market/.well-known/openid-configuration): Shopify Customer Account API OIDC discovery (platform login)
