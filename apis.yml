@@ -32,7 +32,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://www.delli.market/cdn/shop/files/DELLI_LOGO_f77d7743-fe15-439d-9fa8-3754d42462a6.svg?height=628&pad_color=ffffff&v=1764773785&width=1200
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
