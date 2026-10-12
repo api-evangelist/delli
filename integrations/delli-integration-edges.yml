@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/delli/integrations
+- https://n8n.io/integrations/delli/
+- https://composio.dev/toolkits/delli
+- https://monid.ai/tools/delli
+checked:
+- https://composio.dev/toolkits/delli
+- https://monid.ai/tools/delli
+- https://n8n.io/integrations/delli/
+- https://zapier.com/apps/delli/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
